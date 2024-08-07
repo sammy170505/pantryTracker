@@ -96,9 +96,12 @@ export default function Home() {
           id: docSnap.id,
           ...data
         });
+  
       } else {
+        
         setSearchResult(null);
       }
+
     }
 
   return (
